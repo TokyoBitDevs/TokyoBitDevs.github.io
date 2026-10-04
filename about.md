@@ -28,9 +28,3 @@ in order to extract the most value from our Socratic events.
 Event announcements will include details for proposing a presentation or
 discussion topic. Presentation requirements vary with the nature of the
 project.
-doesn’t have to be a whitepaper. In the case of widely-known topics (such as
-
-### Debate Series
-
-Our debate series is dedicated to the investigation of controversial technical
-topics. The structure of the event is dependent on the topic of interest.
