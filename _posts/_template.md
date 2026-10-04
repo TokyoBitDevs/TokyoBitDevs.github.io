@@ -2,18 +2,17 @@
 layout: post
 published: false
 type: socratic
+city: tokyo
 title: "Socratic Seminar TODO"
-meetup: "https://www.meetup.com/BitDevsNYC/"
+# meetup: "https://www.meetup.com/your-group/events/event-id/"
+# luma: "https://lu.ma/event-id"
 ---
-<!--- TODO: remove `published: false` when creating new socratic --->
-<!--- TODO: replace meetup link with https://www.meetup.com/BitDevsNYC/events/<##replace##>/ --->
+<!--- TODO: remove `published: false` when creating a new Socratic Seminar. --->
 
 ## Announcements
-Please join us for our next Socratic Seminar. A special thank you to our sponsors [Chaincode Labs](https://chaincode.com) and [Cake Wallet](https://cakewallet.com/) for food, refreshments and event space.
+Please join us for our next Socratic Seminar. Venue, refreshments, and RSVP details will be announced with the event.
 
-Please note the start time! We will open doors at 6pm for socializing, and plan on starting the discussion around 7pm.
-
-If you can't make it to the main event please join us at [PUBKEY](https://pubkey.bar/home) around 9:30PM.
+Please note the start time and venue details in the event announcement.
 
 
 ## Presentation

@@ -5,15 +5,16 @@ title: Home
 
 <div class="Home">
   <p class="Home-about">
-    BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols.
+    Tokyo BitDevs is a community for people interested in discussing and participating in the research and development of Bitcoin and related protocols.
   </p>
 
   <div class="Home-posts">
-    <h2 class="Home-posts-title">Upcoming and Recent Events in New York City:</h2>
+    <h2 class="Home-posts-title">Upcoming and Recent Events in Tokyo</h2>
+    {% assign local_posts = site.posts | where: "city", site.data.settings.city_key %}
     {% assign event_posts = 7 %}
     {% assign counter = 0 %}
-    {% for post in site.posts %}
-      {% if post.type == "socratic" or post.type == "whitepaper"%}
+    {% for post in local_posts %}
+      {% if post.type == "socratic" or post.type == "whitepaper" %}
         <div class="Home-posts-post">
           <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
           <span class="Home-posts-post-arrow">&raquo;</span>
@@ -25,13 +26,16 @@ title: Home
         {% endif %}
       {% endif %}
     {% endfor %}
+    {% if counter == 0 %}
+      <p>No Tokyo events are currently scheduled.</p>
+    {% endif %}
     <p><a href="/events.html">See all events</a></p>
   </div>
   <div class="Home-posts">
     <h2 class="Home-posts-title">Recent Blog Posts</h2>
     {% assign blog_posts = 3 %}
     {% assign counter = 0 %}
-    {% for post in site.posts %}
+    {% for post in local_posts %}
       {% if post.type == "blog" %}
         <div class="Home-posts-post">
           <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
@@ -44,6 +48,9 @@ title: Home
         {% endif %}
       {% endif %}
     {% endfor %}
+    {% if counter == 0 %}
+      <p>No Tokyo blog posts have been published yet.</p>
+    {% endif %}
     <p><a href="/blog.html">See all blog posts</a></p>
   </div>
 </div>

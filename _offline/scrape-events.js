@@ -5,7 +5,14 @@ const Turndown = require('turndown');
 
 const turndown = new Turndown();
 const LIMIT = 200; // max
-const JSON_PATH = path.resolve(__dirname, 'events.json');
+const CITY = 'tokyo';
+const meetupGroup = process.env.MEETUP_GROUP;
+if (!meetupGroup) {
+  throw new Error('Set MEETUP_GROUP to the Tokyo Meetup group before importing events.');
+}
+
+const cacheName = `events-${meetupGroup.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.json`;
+const JSON_PATH = path.resolve(__dirname, cacheName);
 const POSTS_PATH = path.resolve(__dirname, '../_posts');
 
 function makeEventFileName(time, title) {
@@ -22,7 +29,7 @@ async function run() {
     console.log(`Loaded ${events.length} events from ${JSON_PATH}`);
   } catch(err) {
     console.log('Failed to load local events, fetching them from API');
-    const res = await fetch(`https://api.meetup.com/BitDevsNYC/events?&sign=true&photo-host=public&page=${LIMIT}&status=past`);
+    const res = await fetch(`https://api.meetup.com/${encodeURIComponent(meetupGroup)}/events?&sign=true&photo-host=public&page=${LIMIT}&status=past`);
     events = await res.json();
     fs.writeFileSync(JSON_PATH, JSON.stringify(events, null, 2));
     console.log(`Saved ${events.length} events to ${JSON_PATH}`);
@@ -48,6 +55,7 @@ async function run() {
     const contents = `---
 layout: post
 type: ${eventType}
+city: ${CITY}
 title: "${title}"
 meetup: ${e.link}
 ---

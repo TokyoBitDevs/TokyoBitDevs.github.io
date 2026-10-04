@@ -1,6 +1,6 @@
-# BitDevs NYC
+# Tokyo BitDevs
 
-Simple Jekyll site for hosting all of the links from meetups past and future.
+Simple Jekyll site for hosting Tokyo BitDevs event and blog posts.
 
 ## Development
 
@@ -22,8 +22,10 @@ following information:
 ---
 layout: post # Always post
 type: socratic # or whitepaper for a whitepaper series
+city: tokyo # keeps Tokyo posts separate from the inherited archive
 title: "Name of the Post"
-meetup: https://www.meetup.com/BitDevsNYC/events/[event id here]/
+# meetup: https://www.meetup.com/your-group/events/[event id here]/
+# luma: https://lu.ma/[event id]
 ---
 ```
 

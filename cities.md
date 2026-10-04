@@ -6,11 +6,11 @@ As Bitcoin has grown, so too have the local communities of like minded enthusias
 
 Inspired by this very ethos, the BitDevs NYC community fostered an in-person environment where technically focused dialogue could be used as a way of testing ideas, just in the same way software protocols are challenged in open networks. Instead of organizing meetups exclusively around presentations and lectures, events were styled as Socratic Seminars, such that open discourse underpinned each event, inviting a collaborative spirit that reflected the base principles of the Bitcoin protocol and cypherpunk spirit.
 
-Over time, the concept of BitDevs and the associated Socratic Seminar event series have spread to other cities. While the NYC community was first to stumble upon these ideas, it holds no trademark, license, branding or creative direction over the use of these terms. BitDevs, like any piece of open source code with a liberal license, is free for anyone to use and adapt to their local communities.
+Over time, the concept of BitDevs and the associated Socratic Seminar event series have spread to other cities. While the original NYC community was first to stumble upon these ideas, it holds no trademark, license, branding or creative direction over the use of these terms. BitDevs, like any piece of open source code with a liberal license, is free for anyone to use and adapt to their local communities.
 
-If you find yourself interested in tapping into your local Bitcoin community, we have put together a list here of meetups which are known to regularly host in-person [Socratic Seminars](https://bitdevs.org/about). We hope you are able to attend and leave with a deeper connection to and appreciation for the Bitcoin community. Please [open a PR](https://github.com/BitDevsNYC/BitDevsNYC.github.io) to add your city. 
+If you find yourself interested in tapping into your local Bitcoin community, we have put together a list here of meetups which are known to regularly host in-person [Socratic Seminars](https://bitdevs.org/about). We hope you are able to attend and leave with a deeper connection to and appreciation for the Bitcoin community. Please [open a PR](https://github.com/TokyoBitDevs/TokyoBitDevs.github.io) to add your city.
 
-As a disclaimer, BitDevs NYC has no official associations with or oversight of these meetups. In some cases we have never even spoken to the organizers. An idea, much like a hash function, is one way. If you don't like what you see, feel free to [fork it](https://github.com/BitDevsNYC/BitDevsNYC.github.io/) and [run your own](https://bitdevs.org/running-a-great-socratic-seminar/).
+As a disclaimer, Tokyo BitDevs has no official associations with or oversight of these meetups. In some cases we have never even spoken to the organizers. An idea, much like a hash function, is one way. If you don't like what you see, feel free to [fork this site](https://github.com/TokyoBitDevs/TokyoBitDevs.github.io/) and [run your own](https://bitdevs.org/running-a-great-socratic-seminar/).
 
 - [Amsterdam](https://bitdevsamsterdam.org/)
 - [Athens](https://bitdevs-athens.com/)
@@ -51,6 +51,7 @@ As a disclaimer, BitDevs NYC has no official associations with or oversight of t
 - [Sydney](https://sydney.bitdevs.com.au/)
 - [Tampa](https://www.bitcoinbay.foundation/bitdevs)
 - [Taipei](https://bitdevs.tw/)
+- [Tokyo](https://tokyobitdevs.github.io/)
 - [Uberlândia](https://udibitdevs.org/)
 - [Vancouver](https://bitdevs.ca/)
 - [Victoria](https://bitdevsvictoria.org/)

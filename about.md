@@ -2,16 +2,16 @@
 layout: default
 ---
 
-BitDevs is a community for those interested in discussing and participating in
-the research and development of Bitcoin and related protocols. You can be well
-versed with or new to the topics, all are welcome. Be advised: discussion will
-be technical.
+Tokyo BitDevs is a community for people interested in discussing and
+participating in the research and development of Bitcoin and related protocols.
+You can be well versed with or new to the topics; all are welcome. Be advised:
+discussion will be technical.
 
 ### Socratic Seminars
 
-Our monthly Socratic Seminar events are formatted to foster debate, information
-sharing and lively discussion. In the weeks preceding the event, discussion
-topics are collated by meetup members from a variety of sources: pull requests
+Our Socratic Seminar events are formatted to foster debate, information sharing
+and lively discussion. In the weeks preceding an event, discussion topics are
+collated by community members from a variety of sources: pull requests
 in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, Joinmarket,
 Elements Alpha and Electrum), research papers, technical blog posts, IRC logs,
 network monitors and more. After a period of discussion, some events will have [presentations](https://bitdevs.org/presenter-guidelines/) of open source
@@ -25,9 +25,8 @@ descriptions of past meetups. The discussion portion of the event is NEVER
 recorded. It is recommended that you have a firm grasp of the basics of Bitcoin
 in order to extract the most value from our Socratic events.
 
-Please contact the organizers if you'd like to present at a future Socratic
-event or have a recommended topic for discussion: bitdevsnyc at gmail. There
-are different requirements for presentations depending on the nature of the
+Event announcements will include details for proposing a presentation or
+discussion topic. Presentation requirements vary with the nature of the
 project.
 
 ### Whitepaper Series
@@ -46,8 +45,8 @@ doesn’t have to be a whitepaper. In the case of widely-known topics (such as
 Elliptic Curve encryption) a chapter of a textbook, Wikipedia article, or other
 material can be suggested.
 
-To propose a topic to present or volunteer to present a paper, please contact
-bitdevsnyc at gmail.
+Event announcements will include details for proposing a topic or volunteering
+to present a paper.
 
 ### Debate Series
 
