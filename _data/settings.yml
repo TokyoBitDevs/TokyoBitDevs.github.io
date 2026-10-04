@@ -7,6 +7,5 @@ repository: 'https://github.com/TokyoBitDevs/TokyoBitDevs.github.io'
 menu:
   - {name: 'About', url: '/about'}
   - {name: 'Events', url: '/events'}
-  - {name: 'Blog', url: '/blog'}
   - {name: 'Cities', url: '/cities'}
   
