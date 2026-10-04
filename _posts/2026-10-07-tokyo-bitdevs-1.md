@@ -52,9 +52,7 @@ will guide the technical discussion.
 
 ## Bitcoin Core Development & Releases
 
-- [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)
 - [Enforce Murch-Zawy rule](https://github.com/bitcoin/bitcoin/pull/35949)
-- [Bitcoin Optech](https://bitcoinops.org/)
 - [Bitcoin Core 32.0rc2 release candidate is available](https://groups.google.com/g/bitcoindev/c/qmAyi-cryvE)
 
 ## Privacy & Advanced Constructions
