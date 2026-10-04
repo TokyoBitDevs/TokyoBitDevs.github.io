@@ -7,7 +7,6 @@ title: Meetings
   {% assign local_posts = site.posts | where: "city", site.data.settings.city_key %}
   {% assign socratic_posts = local_posts | where: "type", "socratic" %}
   {% assign ethereum_socratic_posts = local_posts | where: "type", "ethereum_socratic" %}
-  {% assign whitepaper_posts = local_posts | where: "type", "whitepaper" %}
 
   <div class="Home-posts">
     <h2 class="Home-posts-title">Socratic Seminars</h2>
@@ -32,21 +31,6 @@ title: Meetings
           <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
         </div>
       {% endfor %}
-    {% endif %}
-  </div>
-
-  <div class="Home-posts">
-    <h2 class="Home-posts-title">Whitepaper Series</h2>
-    {% if whitepaper_posts.size > 0 %}
-      {% for post in whitepaper_posts %}
-        <div class="Home-posts-post">
-          <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
-          &raquo;
-          <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
-        </div>
-      {% endfor %}
-    {% else %}
-      <p>No Tokyo Whitepaper Series events are currently listed.</p>
     {% endif %}
   </div>
 </div>
