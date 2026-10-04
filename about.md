@@ -13,7 +13,7 @@ Our Socratic Seminar events are formatted to foster debate, information sharing
 and lively discussion. In the weeks preceding an event, discussion topics are
 collated by community members from a variety of sources: pull requests
 in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, Joinmarket,
-Elements Alpha and Electrum), research papers, technical blog posts, IRC logs,
+Elements Alpha and Electrum), research papers, technical articles, IRC logs,
 network monitors and more. After a period of discussion, some events will have [presentations](https://bitdevs.org/presenter-guidelines/) of open source
 projects, companies, research and other relevant content. A feedback and Q&A
 section follow. After the event the group gathers at a nearby restaurant to
@@ -28,25 +28,7 @@ in order to extract the most value from our Socratic events.
 Event announcements will include details for proposing a presentation or
 discussion topic. Presentation requirements vary with the nature of the
 project.
-
-### Whitepaper Series
-
-A journal club to discuss specific topics in the Bitcoin ecosystem. This is an
-academic-style journal club where one person chooses a topic or paper and
-presents it. Participants are expected to have read the paper or other material
-suggested by the discussion leader. The discussion leader doesn’t have to be an
-expert on the subject, but should be interested enough in it to read the paper
-thoroughly so as to give a decent presentation. After informally presenting the
-topic, the group can then ask questions or open discussion surrounding the
-topic. The presentation should be informal (slides are allowed, but
-whiteboard/chalkboard is preferred), and this should be a discussion, not a
-one-way transmission of information by the presenter. The reading material
 doesn’t have to be a whitepaper. In the case of widely-known topics (such as
-Elliptic Curve encryption) a chapter of a textbook, Wikipedia article, or other
-material can be suggested.
-
-Event announcements will include details for proposing a topic or volunteering
-to present a paper.
 
 ### Debate Series
 
